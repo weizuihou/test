@@ -1,0 +1,153 @@
+{
+  "setTimeout": {
+    "enabled": false,
+    "delay": 1000
+  },
+  "setInterval": {
+    "enabled": false,
+    "delay": 1000
+  },
+  "map": {
+    "enabled": true,
+    "filterCount": 1,
+    "filterCondition": "tail",
+    "timeCondition": {
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "days": [0, 1, 2, 3, 4, 5, 6],
+      "timeRanges": [
+        {"start": "00:00", "end": "23:59"}
+      ]
+    }
+  },
+  "forEach": {
+    "enabled": true,
+    "filterCount": 1,
+    "filterCondition": "tail",
+    "timeCondition": {
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "days": [0, 1, 2, 3, 4, 5, 6],
+      "timeRanges": [
+        {"start": "00:00", "end": "23:59"}
+      ]
+    }
+  },
+  "filter": {
+    "enabled": true,
+    "filterCount": 1,
+    "filterCondition": "tail",
+    "timeCondition": {
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "days": [0, 1, 2, 3, 4, 5, 6],
+      "timeRanges": [
+        {"start": "00:00", "end": "23:59"}
+      ]
+    }
+  },
+  "reduce": {
+    "enabled": false
+  },
+  "some": {
+    "enabled": false
+  },
+  "every": {
+    "enabled": false
+  },
+  "concat": {
+    "enabled": true,
+    "filterCount": 1,
+    "filterCondition": "tail",
+    "timeCondition": {
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "days": [0, 1, 2, 3, 4, 5, 6],
+      "timeRanges": [
+        {"start": "00:00", "end": "23:59"}
+      ]
+    }
+  },
+  "slice": {
+    "enabled": true,
+    "filterCount": 1,
+    "filterCondition": "tail",
+    "timeCondition": {
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "days": [0, 1, 2, 3, 4, 5, 6],
+      "timeRanges": [
+        {"start": "00:00", "end": "23:59"}
+      ]
+    }
+  },
+  "splice": {
+    "enabled": true,
+    "filterCount": 1,
+    "filterCondition": "tail",
+    "timeCondition": {
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "days": [0, 1, 2, 3, 4, 5, 6],
+      "timeRanges": [
+        {"start": "00:00", "end": "23:59"}
+      ]
+    }
+  },
+  "find": {
+    "enabled": false
+  },
+  "findIndex": {
+    "enabled": false
+  },
+  "indexOf": {
+    "enabled": false
+  },
+  "lastIndexOf": {
+    "enabled": false
+  },
+  "includes": {
+    "enabled": false
+  },
+  "join": {
+    "enabled": false
+  },
+  "reverse": {
+    "enabled": true,
+    "filterCount": 1,
+    "filterCondition": "tail",
+    "timeCondition": {
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "days": [0, 1, 2, 3, 4, 5, 6],
+      "timeRanges": [
+        {"start": "00:00", "end": "23:59"}
+      ]
+    }
+  },
+  "sort": {
+    "enabled": true,
+    "filterCount": 1,
+    "filterCondition": "tail",
+    "timeCondition": {
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "days": [0, 1, 2, 3, 4, 5, 6],
+      "timeRanges": [
+        {"start": "00:00", "end": "23:59"}
+      ]
+    }
+  },
+  "Date": {
+    "enabled": true,
+    "offsetMinutes": 83,
+    "timeCondition": {
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "days": [0, 1, 2, 3, 4, 5, 6],
+      "timeRanges": [
+        {"start": "00:00", "end": "23:59"}
+      ]
+    }
+  }
+}
