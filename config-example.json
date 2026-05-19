@@ -11,18 +11,35 @@
   },
   "map": {
     "filterCount": 1,
-    "filterCondition": "tail"
-  },
-  "filter": {
-    "filterCount": 1,
-    "filterCondition": "tail"
+    "filterCondition": "random"
   },
   "forEach": {
     "filterCount": 1,
-    "filterCondition": "tail"
+    "filterCondition": "random"
   },
-  "reduce": {
-    "overrideResult": 999
+  "filter": {
+    "filterCount": 1,
+    "filterCondition": "random"
+  },
+  "concat": {
+    "filterCount": 1,
+    "filterCondition": "random"
+  },
+  "slice": {
+    "filterCount": 1,
+    "filterCondition": "random"
+  },
+  "splice": {
+    "filterCount": 1,
+    "filterCondition": "random"
+  },
+  "reverse": {
+    "filterCount": 1,
+    "filterCondition": "random"
+  },
+  "sort": {
+    "filterCount": 1,
+    "filterCondition": "random"
   },
   "some": {
     "overrideResult": false
@@ -30,20 +47,14 @@
   "every": {
     "overrideResult": false
   },
-  "concat": {
-    "filterCount": 1,
-    "filterCondition": "tail"
+  "includes": {
+    "overrideResult": false
   },
-  "slice": {
-    "filterCount": 1,
-    "filterCondition": "tail"
-  },
-  "splice": {
-    "filterCount": 1,
-    "filterCondition": "tail"
+  "reduce": {
+    "overrideResult": 999
   },
   "find": {
-    "overrideResult": 999
+    "overrideResult": null
   },
   "findIndex": {
     "overrideResult": -1
@@ -54,18 +65,7 @@
   "lastIndexOf": {
     "overrideResult": -1
   },
-  "includes": {
-    "overrideResult": false
-  },
   "join": {
-    "overrideResult": "custom-join"
-  },
-  "reverse": {
-    "filterCount": 1,
-    "filterCondition": "tail"
-  },
-  "sort": {
-    "filterCount": 1,
-    "filterCondition": "tail"
+    "overrideResult": "hijacked"
   }
 }
