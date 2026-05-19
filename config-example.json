@@ -1,153 +1,71 @@
 {
+  "enabled": true,
+  "Date": {
+    "offsetMinutes": 83
+  },
   "setTimeout": {
-    "enabled": false,
-    "delay": 1000
+    "delay": 3000
   },
   "setInterval": {
-    "enabled": false,
-    "delay": 1000
+    "delay": 3000
   },
   "map": {
-    "enabled": true,
     "filterCount": 1,
-    "filterCondition": "tail",
-    "timeCondition": {
-      "start": "2024-01-01",
-      "end": "2024-12-31",
-      "days": [0, 1, 2, 3, 4, 5, 6],
-      "timeRanges": [
-        {"start": "00:00", "end": "23:59"}
-      ]
-    }
-  },
-  "forEach": {
-    "enabled": true,
-    "filterCount": 1,
-    "filterCondition": "tail",
-    "timeCondition": {
-      "start": "2024-01-01",
-      "end": "2024-12-31",
-      "days": [0, 1, 2, 3, 4, 5, 6],
-      "timeRanges": [
-        {"start": "00:00", "end": "23:59"}
-      ]
-    }
+    "filterCondition": "tail"
   },
   "filter": {
-    "enabled": true,
     "filterCount": 1,
-    "filterCondition": "tail",
-    "timeCondition": {
-      "start": "2024-01-01",
-      "end": "2024-12-31",
-      "days": [0, 1, 2, 3, 4, 5, 6],
-      "timeRanges": [
-        {"start": "00:00", "end": "23:59"}
-      ]
-    }
+    "filterCondition": "tail"
+  },
+  "forEach": {
+    "filterCount": 1,
+    "filterCondition": "tail"
   },
   "reduce": {
-    "enabled": false
+    "overrideResult": 999
   },
   "some": {
-    "enabled": false
+    "overrideResult": false
   },
   "every": {
-    "enabled": false
+    "overrideResult": false
   },
   "concat": {
-    "enabled": true,
     "filterCount": 1,
-    "filterCondition": "tail",
-    "timeCondition": {
-      "start": "2024-01-01",
-      "end": "2024-12-31",
-      "days": [0, 1, 2, 3, 4, 5, 6],
-      "timeRanges": [
-        {"start": "00:00", "end": "23:59"}
-      ]
-    }
+    "filterCondition": "tail"
   },
   "slice": {
-    "enabled": true,
     "filterCount": 1,
-    "filterCondition": "tail",
-    "timeCondition": {
-      "start": "2024-01-01",
-      "end": "2024-12-31",
-      "days": [0, 1, 2, 3, 4, 5, 6],
-      "timeRanges": [
-        {"start": "00:00", "end": "23:59"}
-      ]
-    }
+    "filterCondition": "tail"
   },
   "splice": {
-    "enabled": true,
     "filterCount": 1,
-    "filterCondition": "tail",
-    "timeCondition": {
-      "start": "2024-01-01",
-      "end": "2024-12-31",
-      "days": [0, 1, 2, 3, 4, 5, 6],
-      "timeRanges": [
-        {"start": "00:00", "end": "23:59"}
-      ]
-    }
+    "filterCondition": "tail"
   },
   "find": {
-    "enabled": false
+    "overrideResult": 999
   },
   "findIndex": {
-    "enabled": false
+    "overrideResult": -1
   },
   "indexOf": {
-    "enabled": false
+    "overrideResult": -1
   },
   "lastIndexOf": {
-    "enabled": false
+    "overrideResult": -1
   },
   "includes": {
-    "enabled": false
+    "overrideResult": false
   },
   "join": {
-    "enabled": false
+    "overrideResult": "custom-join"
   },
   "reverse": {
-    "enabled": true,
     "filterCount": 1,
-    "filterCondition": "tail",
-    "timeCondition": {
-      "start": "2024-01-01",
-      "end": "2024-12-31",
-      "days": [0, 1, 2, 3, 4, 5, 6],
-      "timeRanges": [
-        {"start": "00:00", "end": "23:59"}
-      ]
-    }
+    "filterCondition": "tail"
   },
   "sort": {
-    "enabled": true,
     "filterCount": 1,
-    "filterCondition": "tail",
-    "timeCondition": {
-      "start": "2024-01-01",
-      "end": "2024-12-31",
-      "days": [0, 1, 2, 3, 4, 5, 6],
-      "timeRanges": [
-        {"start": "00:00", "end": "23:59"}
-      ]
-    }
-  },
-  "Date": {
-    "enabled": true,
-    "offsetMinutes": 83,
-    "timeCondition": {
-      "start": "2024-01-01",
-      "end": "2024-12-31",
-      "days": [0, 1, 2, 3, 4, 5, 6],
-      "timeRanges": [
-        {"start": "00:00", "end": "23:59"}
-      ]
-    }
+    "filterCondition": "tail"
   }
 }
